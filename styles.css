@@ -56,10 +56,11 @@ section {
 }
 
 .secHeading {
-  position: relative;
+  /* position: relative; */
+  text-align: center;
   font-size: 3.5rem;
   padding: 0 10rem;
-  left: 20%;
+  /* left: 20%; */
 }
 
 .text {
@@ -81,7 +82,7 @@ section {
 
 .desc {
   position: absolute;
-  background-color: rgba(46, 46, 46, 0.288);
+  background-color: rgba(0, 0, 0, 0.204);
   border-radius: 10px;
   padding: 0.5rem 2.5rem;
   top: 50%;
@@ -90,7 +91,8 @@ section {
   font-family: "Bebas Neue", sans-serif;
   font-size: 3.5rem;
   font-weight: 600;
-  text-shadow: 10px 10px 20px black;
+  /* text-shadow: 5px 10px 20px black; */
+  letter-spacing: 1px;
 }
 
 .bg1 {
